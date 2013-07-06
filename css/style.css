@@ -1,0 +1,17 @@
+/*  RESERVED KEYWORDS
+	-----------------
+	.clearTAG 
+	.ie6Warning 
+	.javascriptError
+	.BasicFont
+*/
+
+body { min-width: 960px; background: #323232 url('../img/logo.png') no-repeat 50% 20px; }
+.container { margin: 0 auto; margin-top: 75px; background: #323232 url('../img/homebody.png') no-repeat 50% 50%; width: 951px; height: 469px;  }
+
+.box { display: none; position: absolute; left:0; top: 0; z-index: 10; }
+	.box div { float: left; width: 161px; height: 161px; cursor: pointer; }
+	
+	.box div p { width: 161px; height: 161px; display: none; }	
+	
+.boxBG { width: 100%; display: none; position: absolute; left:0; top: 0; z-index: 9; background: #323232; }

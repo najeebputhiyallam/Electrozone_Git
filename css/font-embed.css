@@ -1,0 +1,11 @@
+/*  Font Embeding in IE, Firefox, Safari, Chrome, Opera
+	--------------------------------------------------
+	http://onlinefontconverter.com/myfonts.php for TTFtoOTF 
+	http://www.fontsquirrel.com/fontface/generator for OTFtoTTF 
+	http://www.kirsle.net/wizards/ttf2eot.cgi for TTFtoEOT 
+*/
+	@font-face {
+		font-family: 'fontName';
+		src: url("fontName.otf") format('opentype'), url('fontName.svg#webfont') format('svg');
+	}	
+
